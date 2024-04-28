@@ -1,0 +1,166 @@
+/* website.css */
+
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background color */
+body {
+    background-color: black;
+    -webkit-text-fill-color: #fff;
+}
+.jumbo{
+    color: white;
+
+}
+.art{
+    color: white;
+}
+
+/* Navbar styles */
+nav.sidebar {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:gray;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+}
+
+nav.sidebar a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+   -webkit-text-fill-color: white;
+    display: block;
+    
+}
+.bar-item{
+    align-items: center;
+    text-align: center;
+    
+}
+
+nav.sidebar a:hover {
+    background-color:black;
+}
+
+/* Main content styles */
+div#main {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* About section styles */
+div#about {
+    text-align: center;
+    margin-top: 50px;
+}
+
+div#about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+div#about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Skill bars */
+div.white {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+div.dark-grey {
+    background-color:red;
+    border-radius: 5px;
+}
+
+/* Portfolio section styles */
+div#photos {
+    text-align: center;
+    margin-top: 50px;
+}
+
+div#photos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+div.row-padding {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.half {
+    flex: 0 0 50%;
+    padding: 0 16px;
+}
+
+div.half img {
+    margin-bottom: 16px;
+}
+.button{
+   -webkit-text-fill-color: black;
+}
+/* Contact section styles */
+div#contact {
+    text-align: left;
+    margin-top: 50px;
+}
+
+div#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+div.section {
+    margin-bottom: 20px;
+}
+
+div.section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer.content {
+    text-align: left;
+    margin-top: 50px;
+}
+
+footer.content i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333;
+}
+
+footer.content i:hover {
+    color: #555;
+}
